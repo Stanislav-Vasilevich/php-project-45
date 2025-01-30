@@ -1,5 +1,7 @@
 {
     "name": "hexlet/code",
+    "description": "Учебный проект 'Игры разума' на платформе hexlet",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
