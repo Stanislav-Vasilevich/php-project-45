@@ -1,23 +1,25 @@
 {
-    "name": "hexlet/code",
-    "description": "Учебный проект 'Игры разума' на платформе hexlet",
-    "license": "MIT",
-    "autoload": {
-        "files": ["src/Cli.php"],
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "StanislaVailevich",
-            "email": "stanislavasilevich@yandex.ru"
-        }
+  "name": "hexlet/code",
+  "description": "Учебный проект 'Игры разума' на платформе hexlet",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "src/Cli.php"
     ],
-    "require": {
-        "wp-cli/php-cli-tools": "^0.12.1"
-    },
-    "bin": [
-        "bin/brain-games"
-    ]
+    "psr-4": {
+      "Hexlet\\Code\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "StanislaVailevich",
+      "email": "stanislavasilevich@yandex.ru"
+    }
+  ],
+  "require": {
+    "wp-cli/php-cli-tools": "^0.12.1"
+  },
+  "bin": [
+    "bin/brain-games"
+  ]
 }
